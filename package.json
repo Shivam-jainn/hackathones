@@ -1,0 +1,24 @@
+{
+  "name": "hackathones",
+  "version": "1.0.0",
+  "description": "Hackathones project for skill-a-thon 1.0 ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam-jainn/hackathones.git"
+  },
+  "keywords": [
+    "BECKN",
+    "protocols"
+  ],
+  "author": "Shivam Jain , Dhyuti Tewani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivam-jainn/hackathones/issues"
+  },
+  "homepage": "https://github.com/Shivam-jainn/hackathones#readme"
+}
