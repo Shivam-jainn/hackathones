@@ -18,14 +18,18 @@ eduSchoolRouter
 
 
 function getSchoolignupPage(req,res) {
-    res.sendFile('/home/shivamjain/Documents/Code/Hackthones-team/src/Public/Education/School/schoolDemoSignUp.html');
+    let path = require('path');
+    path = path.join(__dirname, '..','/Public/Education/School/schoolDemoSignUp.html');
+    res.sendFile(path);
 }
 
 
 
 
 function getSchoolDashboardPage(req,res) {
-    res.sendFile('/home/shivamjain/Documents/Code/Hackthones-team/src/Public/Education/School/schoolDashboard.html');
+    let path = require('path');
+    path = path.join(__dirname, '..','/Public/Education/School/schoolDashboard.html');
+    res.sendFile(path);
 }
 
 

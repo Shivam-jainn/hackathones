@@ -17,12 +17,16 @@ eduCollegeRouter
 
 
 function getCollegesignupPage(req,res) {
-    res.sendFile('/home/shivamjain/Documents/Code/Hackthones-team/src/Public/Education/Colleges/clgDemoSignUp.html');
+    let path = require('path');
+     path = path.join(__dirname, '..','/Public/Education/Colleges/clgDemoSignUp.html');
+    res.sendFile(path);
 }
 
 
 function getCollegeDashboardPage(req,res) {
-    res.sendFile('/home/shivamjain/Documents/Code/Hackthones-team/src/Public/Education/Colleges/clgDashboard.html');
+    let path = require('path');
+    path = path.join(__dirname, '..','/Public/Education/Colleges/clgDashboard.html');
+    res.sendFile(path);
 }
 
 

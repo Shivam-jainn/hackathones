@@ -12,12 +12,16 @@ nonprofitRouter
 
 
 function nonprofitDemoPage(req,res) {
-    res.sendFile('/home/shivamjain/Documents/Code/Hackthones-team/src/Public/Nonprofit/openngo.html');
+    let path = require('path');
+    path = path.join(__dirname, '..','/Public/Education/Colleges/clgDemoSignUp.html');
+    res.sendFile(path);
 }
 
 
 function nonprofitDashBoardPage(req,res) {
-    res.sendFile('/home/shivamjain/Documents/Code/Hackthones-team/src/Public/Nonprofit/openngodash.html');
+    let path = require('path');
+    path = path.join(__dirname, '..','/Public/Education/Colleges/clgDemoSignUp.html');
+    res.sendFile(path);
 }
 
 
