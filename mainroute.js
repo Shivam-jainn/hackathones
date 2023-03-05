@@ -5,7 +5,7 @@ const app = express();
 const port = 3000
 app.listen(port);
 
-const eduSchoolRouter = require('./src/Routes/landingpagerouter.js');
+const landingpagerouter = require('./src/Routes/landingpagerouter.js');
 app.use('/', landingpagerouter);
 
 const eduSchoolRouter = require('./src/Routes/eduSchoolRoute.js');
