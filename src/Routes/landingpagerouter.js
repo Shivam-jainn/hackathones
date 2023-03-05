@@ -12,6 +12,6 @@ landingpagerouter
 
 function getLandingPage(req,res){
      let path = require('path');
-     path = path.join(__dirname, '..','/Public/landing.html');
+     path = path.join(__dirname, '..','/Public/landingpage.html');
     res.sendFile(path);
 }
